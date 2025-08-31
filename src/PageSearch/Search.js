@@ -11,11 +11,7 @@ import insta5 from '../asset/images/insta-item5.jpg';
 import '../PageProducts/Products.css';
 import axios from "axios";
 import jQuery from 'jquery';
-<<<<<<< HEAD
 import 'swiper/swiper.min.css';
-=======
-import 'C:/Users/maroc/Documents/project react issalmou/myapp/node_modules/swiper/swiper.min.css';
->>>>>>> d936c8d83267dac5fa2bf8c040c2e579d13c3f81
 import Swiper from 'swiper/bundle';
 function Search_afficher(props) {
     return (

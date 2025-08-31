@@ -2,11 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Products.css'
 import axios from "axios";
 import jQuery from 'jquery';
-<<<<<<< HEAD
 import 'swiper/swiper.min.css';
-=======
-import 'C:/Users/maroc/Documents/project react issalmou/myapp/node_modules/swiper/swiper.min.css';
->>>>>>> d936c8d83267dac5fa2bf8c040c2e579d13c3f81
 import Swiper from 'swiper/bundle';
 import bill1 from '../asset/images/banner-image.png'
 import bill2 from '../asset/images/pc.png'
