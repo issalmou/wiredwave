@@ -1,4 +1,5 @@
 {
+  "homepage": "http://issalmou.github.io/wiredwave",
   "name": "myapp",
   "version": "0.1.0",
   "private": true,
@@ -33,7 +34,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -58,6 +61,7 @@
     "@babel/plugin-transform-react-jsx": "^7.23.4",
     "@babel/preset-env": "^7.23.6",
     "@babel/preset-react": "^7.23.3",
-    "@types/jquery": "^3.5.29"
+    "@types/jquery": "^3.5.29",
+    "gh-pages": "^6.3.0"
   }
 }
