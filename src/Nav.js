@@ -15,7 +15,7 @@ import Admin from "./PageAdmin/Admin";
 export default function Nav() { 
     return(
         <Routes>
-            <Route path="/wiredwave/" element={<Home />}></Route>
+            <Route path="https://issalmou.github.io/wiredwave/" element={<Home />}></Route>
             <Route path="/wiredwave/login" element={<Login  />}></Route>
             <Route path="/wiredwave/profile" element={<Profile  />}></Route>
             <Route path="/wiredwave/profile/detail" element={<DetailUser  />}></Route>
