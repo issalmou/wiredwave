@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wiredwave/static/css/main.bccbd7b5.css",
-    "main.js": "/wiredwave/static/js/main.6e870aef.js",
+    "main.js": "/wiredwave/static/js/main.eb953267.js",
     "static/js/787.1937f22b.chunk.js": "/wiredwave/static/js/787.1937f22b.chunk.js",
     "static/media/post-item2.jpg": "/wiredwave/static/media/post-item2.0e2fe709ef58c09362f9.jpg",
     "static/media/home.png": "/wiredwave/static/media/home.9963ad117f9bc992bd0a.png",
@@ -31,11 +31,11 @@
     "static/media/about2.webp": "/wiredwave/static/media/about2.561d69f70c6fb8b6e604.webp",
     "index.html": "/wiredwave/index.html",
     "main.bccbd7b5.css.map": "/wiredwave/static/css/main.bccbd7b5.css.map",
-    "main.6e870aef.js.map": "/wiredwave/static/js/main.6e870aef.js.map",
+    "main.eb953267.js.map": "/wiredwave/static/js/main.eb953267.js.map",
     "787.1937f22b.chunk.js.map": "/wiredwave/static/js/787.1937f22b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bccbd7b5.css",
-    "static/js/main.6e870aef.js"
+    "static/js/main.eb953267.js"
   ]
 }
