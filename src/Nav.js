@@ -1,5 +1,5 @@
 import Home from "./PageHome/Home";
-import {Route,Routes } from "react-router-dom";
+import { Route, Routes,HashRouter } from "react-router-dom";
 import Login from "./PageLogin/Login";
 import Products from "./PageProducts/Products";
 import Product from "./PageProductDetail/Product";
@@ -12,22 +12,24 @@ import DetailUser from "./PageDetaillUser/DetailUser";
 import Search from "./PageSearch/Search";
 import Logout from "./PageLogout/Logout";
 import Admin from "./PageAdmin/Admin";
-export default function Nav() { 
-    return(
-        <Routes>
-            <Route path="https://issalmou.github.io/wiredwave/" element={<Home />}></Route>
-            <Route path="/wiredwave/login" element={<Login  />}></Route>
-            <Route path="/wiredwave/profile" element={<Profile  />}></Route>
-            <Route path="/wiredwave/profile/detail" element={<DetailUser  />}></Route>
-            <Route path="/wiredwave/products" element={<Products  />}></Route>
-            <Route path="/wiredwave/contact" element={<Contact  />}></Route>
-            <Route path="/wiredwave/logout" element={<Logout  />}></Route>
-            <Route path="/wiredwave/product/:categorie?/:asin" element={<Product  />}></Route>
-            <Route path="/wiredwave/search/:categorie?/:search" element={<Search  />}></Route>
-            <Route path="/wiredwave/about" element={<About  />}></Route>
-            <Route path="/wiredwave/cart" element={<Cart  />}></Route>
-            <Route path="/wiredwave/admin" element={<Admin  />}></Route>
-            <Route path="/wiredwave/*" element={<NotFound  />}></Route>
-        </Routes>
+export default function Nav() {
+    return (
+        <HashRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/profile" element={<Profile />} />
+                <Route path="/profile/detail" element={<DetailUser />} />
+                <Route path="/products" element={<Products />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/logout" element={<Logout />} />
+                <Route path="/product/:categorie?/:asin" element={<Product />} />
+                <Route path="/search/:categorie?/:search" element={<Search />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/cart" element={<Cart />} />
+                <Route path="/admin" element={<Admin />} />
+                <Route path="/*" element={<NotFound />} />
+            </Routes>
+        </HashRouter>
     )
 }
